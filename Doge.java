@@ -34,7 +34,7 @@ public class Doge extends Animal
 
                     while (true) {
                         frame.setLocation((int)(Math.random()*1000), (int)(Math.random()*1000));
-                        Thread.sleep(250);
+                        Thread.sleep(350);
                     }
                 }
                 catch (Exception e)
