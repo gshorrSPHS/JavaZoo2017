@@ -41,5 +41,5 @@ public class RedFox extends Animal implements Walking
                "\nTchoff-tchoff-tchoffo-tchoffo-tchoff!" +
                "\nJoff-tchoff-tchoffo-tchoffo-tchoff!";
                
-    }
+    } 
 }
