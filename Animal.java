@@ -1,4 +1,4 @@
-public abstract class Animal implements Swimming
+public abstract class Animal
 {
     private String name;
     private String description;
