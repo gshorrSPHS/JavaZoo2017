@@ -15,7 +15,7 @@ public class MemoryParasite extends Animal implements Walking
     
     public String play()
     {
-        return "Remember that time when " + memory;
+        return "Remember that time when\n" + memory;
     }
     
     public String makeNoise() 
