@@ -5,7 +5,7 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import javax.sound.sampled.*;
 
-public class Doge extends Animal
+public class Doge extends Animal implements Walking
 {
 
     public Doge()
@@ -70,6 +70,10 @@ public class Doge extends Animal
     public String makeNoise()
     {
         return "bark.";
+    }
+    public String walk()
+    {
+        return "walk";
     }
 
 }
