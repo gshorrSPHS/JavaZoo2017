@@ -21,7 +21,7 @@ public class MemoryParasite extends Animal implements Walking
     public String makeNoise() 
     { 
         return "Realizing that " + super.getName() + " was a parasite,\n" +
-               "you shoot him, make some kind of death scream. Good shot!";
+               "you shoot him, making some kind of death scream. Good shot!";
     }
     
     public String walk() { return super.getName() + " is now walking and talking about their favorite memories."; }
